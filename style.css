@@ -1,0 +1,32 @@
+* {
+  color: rgb(83, 83, 84);
+  font-size: 14px;
+}
+h2 {
+  font-size: 18px;
+  color: #150dea;
+}
+#paragraph {
+  color: #88878e;
+  font: 1em sans-serif;
+}
+#first_list {
+  color: rgb(255, 0, 111);
+}
+.header {
+  color: blueviolet;
+}
+
+.first + .second {
+  color: green;
+}
+.big {
+  font-size: 24px;
+  color: black;
+}
+.selected {
+  background-color: green;
+}
+.bordered {
+  border: 3px solid red;
+}
