@@ -30,3 +30,6 @@ h2 {
 .bordered {
   border: 3px solid red;
 }
+main div a {
+  color: lightcoral;
+}
