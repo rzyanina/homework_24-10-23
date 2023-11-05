@@ -20,6 +20,10 @@
     color: blue;
     text-decoration: none;
 }
+.conteiner {
+  max-width: 1110px;
+  margin: auto;
+}
   .title{
     color: #303030;
     font-weight: 700;
