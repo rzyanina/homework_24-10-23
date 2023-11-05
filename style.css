@@ -1,0 +1,39 @@
+    html {
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+    color:#909090 ;  
+    text-align: center;  
+  }
+ 
+  img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  #more {
+    text-align: right;     
+   }
+
+   a {
+    color: blue;
+    text-decoration: none;
+}
+  .title{
+    color: #303030;
+    font-weight: 700;
+
+  }
+  .card {
+    width: 300px;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    box-shadow: 30px 30px 30px 30px rgba(50, 50, 100, 0.25);
+     }
+     
+  
+  
