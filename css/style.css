@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "our";
+    src: url("../fonts/Agbalumo-Regular.ttf");
+}
+body{
+    font-family: "our";
+}
+
+/* color */
+:root {
+    --main-bg-color: #34547A;
+    --main-bg2-color: #EEEFF1;
+    --main-text-color: #B0B1B2;
+}
+
+
+/* header */
+.container{
+    /* background-color: red; */
+    width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--main-bg2-color);
+}
+nav{
+    padding: 30px 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #828384;
+}
+nav ul li a:hover{
+    color: #637B98;
+}
+
+/* main */
+section{
+    padding: 50px 0;
+}
+.block1{
+    background-color: var(--main-bg2-color);
+}
+.block1 h1, .text, .button{
+    padding: 20px 0;
+}
+.block1 .text{
+    width: 50%;
+    color: var(--main-text-color);
+}
+.block1 button{
+    color: white;
+    background-color: var(--main-bg-color);
+    border: none;
+    padding: 15px 30px;
+}
+
+.block2{
+    background-color: white;
+}
+
+.block2 .text, h2{
+    text-align: center;
+    padding: 0 150px;
+}
+
+.block3{
+    background-color: var(--main-bg-color);
+}
+.block3 img{
+    width: 40px;
+}
+.block3 a{
+    text-decoration: none;
+    margin-right: 28px;
+}
+.block3 img, .text-block{
+    display: inline-block;
+    color: white;
+}
+.block3 .text-block{
+    padding-bottom: 5px;
+}
+.block3 .text1{
+    font-weight: bold;
+}
+
+.block4{
+    background-color: var(--main-bg2-color);
+}
+.block4 .text, h2{
+    text-align: center;
+    padding: 0 150px;
+}
+.block4 .video{
+    text-align: center;
+}
+.block4 .text, h2, .video{
+    padding: 20px 0;
+}
+footer{
+    background-color: var(--main-bg-color);
+    color: white;
+    padding: 50px 0;
+}
+iframe{
+   width: 900px;
+    height: 450px;
+}
